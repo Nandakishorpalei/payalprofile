@@ -1,0 +1,182 @@
+body{
+    font-family: "Montserrat-black";
+    margin-top: 0;
+}
+#title{
+  background-image: url("https://images2.imgbox.com/9c/68/NnjRnjYn_o.jpg");
+  background-size:cover;
+  background-color:#ff4c68;
+
+}
+.h1first{
+ font-size: 4rem;
+  line-height: 1.5;
+    color:white;
+}
+.container-fluid{
+  padding: 3% 15% ;
+}
+/*sections*/
+
+.navbar{
+  padding: 0 0 4.5rem ;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.download-buttons{
+  margin:5% 3% 5% 0;
+}
+/*title image*/
+.title-image{
+ margin-left: 17%;
+  width:60%;
+  transform: rotate(25deg);
+  position:relative;
+  z-index: 0;
+}
+.title-image-1{
+  border-radius: 2%;
+  height:70%;
+ margin-left: 19%;
+ margin-top: -580px;
+  width:50%;
+  transform: rotate(25deg);
+  position:relative;
+  z-index: 1;
+}
+#features{
+  padding:7% 15%;
+  margin-top:-160px;
+  text-align:center;
+  font-size: 1.3rem;
+  background-color: white;
+  position:relative;
+  z-index: 1;
+}
+p{
+  color: #8f8f8f;
+}
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.h3{
+  color:black;
+  font-weight: bold;
+}
+.icon{
+  color:#ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/*testimonial sections*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonials-image{
+  width:25%;
+  border-radius: 60%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+/*pricing*/
+#pricing{
+  padding: 5% 13%;
+  text-align: center;
+}
+.pricingbox{
+  padding:3% 2%;
+}
+.dbschool.plus2.graduation{
+  background-color:#effad3;
+
+}
+
+#cta{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+.find{
+  color: #fff;
+  font-size: 70px;
+}
+
+.findbtn{
+  margin: 30px 15px;
+}
+#footer{
+  padding: 3% 15%;
+  text-align: center;
+}
+.rowm{
+  width:21%;
+  margin-left: 43%;
+}
+.rown{
+  margin: 20px 15px;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align:center;
+    background-image: url("https://s.itl.cat/pngfile/s/215-2152162_amazing-blue-sky-sea-beach-hd-mobile-wallpaper.jpg");
+  }
+
+  .title-image{
+
+    position:static;
+    transform: rotate(0);
+    margin-left: 0;
+
+  }
+  .title-image-1{
+    position:static;
+    transform: rotate(0);
+    margin-left: 0px;;
+    margin-top:-117%;
+    height:66%;
+    width:52%;
+
+  }
+  .testimonials-image{
+    width:25%;
+    border-radius: 60%;
+    margin:20px;
+  }
+  #features{
+    margin-top:0;
+  }
+  .rowm{
+    width:50%;
+    margin-left: 27%;
+  }
+  .rown{
+    margin: 20px 20px;
+  }
+}
