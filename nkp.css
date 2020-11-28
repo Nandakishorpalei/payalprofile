@@ -6,6 +6,7 @@ body{
   background-image: url("https://images2.imgbox.com/9c/68/NnjRnjYn_o.jpg");
   background-size:cover;
   background-color:#ff4c68;
+  height:700px;
 
 }
 .h1first{
@@ -40,7 +41,8 @@ body{
 .title-image{
  margin-left: 17%;
   width:60%;
-  transform: rotate(25deg);
+  transform: rotate(7deg);
+  border-radius:5%;
   position:relative;
   z-index: 0;
 }
@@ -145,6 +147,7 @@ h2{
 @media (max-width:1028px) {
   #title{
     text-align:center;
+    height:800px;
     background-image: url("https://s.itl.cat/pngfile/s/215-2152162_amazing-blue-sky-sea-beach-hd-mobile-wallpaper.jpg");
   }
 
