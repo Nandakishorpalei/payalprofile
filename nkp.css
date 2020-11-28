@@ -175,6 +175,10 @@ h2{
   #features{
     margin-top:0;
   }
+      .navbar-toggler-icon{
+    height:120px;
+    width:120px;
+  }
   .rowm{
     width:50%;
     margin-left: 27%;
