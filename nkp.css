@@ -172,6 +172,9 @@ h2{
     border-radius: 60%;
     margin:20px;
   }
+    .navbar-brand{
+        font-size:1.32rem;
+    }
   #features{
     margin-top:0;
   }
